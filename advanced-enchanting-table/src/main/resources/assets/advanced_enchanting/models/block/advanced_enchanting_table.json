@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/enchanting_table",
+  "textures": {
+    "top": "advanced_enchanting:block/enchanting_table_top",
+    "side": "advanced_enchanting:block/enchanting_table_side"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "sea_disdain",
+  "version": "${version}",
+  "name": "海之嫌弃钓鱼 (Sea Disdain Fishing)",
+  "description": "Adds the Sea Disdain fishing-rod enchantment and its dangerous catches.",
+  "authors": [
+    "Shenmi"
+  ],
+  "license": "CC0-1.0",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.shenmi.seadis.SeaDisdainFishingMod"
+    ]
+  },
+  "mixins": [
+    "sea_disdain.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.11",
+    "minecraft": "~1.20.1",
+    "java": ">=17",
+    "fabric-api": "*"
+  }
+}

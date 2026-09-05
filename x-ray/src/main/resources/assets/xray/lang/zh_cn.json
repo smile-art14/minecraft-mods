@@ -1,0 +1,9 @@
+{
+  "category.xray.controls": "X-Ray",
+  "key.xray.toggle": "开关 X-Ray 夜视",
+  "key.xray.decrease": "降低 X-Ray 强度",
+  "key.xray.increase": "提高 X-Ray 强度",
+  "message.xray.enabled": "X-Ray 已开启（%s%%）",
+  "message.xray.disabled": "X-Ray 已关闭",
+  "message.xray.strength": "X-Ray 强度：%s%%"
+}

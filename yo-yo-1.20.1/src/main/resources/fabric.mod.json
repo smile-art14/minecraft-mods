@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "shenmi_yoyo",
+  "version": "${version}",
+  "name": "神秘溜溜球 (Shenmi Yo-Yo)",
+  "description": "A combat yo-yo with melee, throw/return, strangle and player-mount interactions.",
+  "authors": ["Shenmi"],
+  "license": "CC0-1.0",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.shenmi.yoyo.YoYoMod"],
+    "client": ["com.shenmi.yoyo.client.YoYoClient"]
+  },
+  "mixins": [
+    "shenmi_yoyo.mixins.json",
+    "shenmi_yoyo.client.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.11",
+    "minecraft": "~1.20.1",
+    "java": ">=17",
+    "fabric-api": "*"
+  }
+}

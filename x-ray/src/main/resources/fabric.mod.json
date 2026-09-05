@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "xray",
+  "version": "${version}",
+  "name": "X-Ray",
+  "description": "Adjustable client-side night vision.",
+  "authors": ["Shenmi"],
+  "license": "CC0-1.0",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.shenmi.xray.XRayClient"
+    ]
+  },
+  "mixins": [
+    {
+      "config": "xray.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.11",
+    "minecraft": "~1.20.1",
+    "java": ">=17"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "category.xray.controls": "X-Ray",
+  "key.xray.toggle": "Toggle X-Ray night vision",
+  "key.xray.decrease": "Decrease X-Ray strength",
+  "key.xray.increase": "Increase X-Ray strength",
+  "message.xray.enabled": "X-Ray enabled (%s%%)",
+  "message.xray.disabled": "X-Ray disabled",
+  "message.xray.strength": "X-Ray strength: %s%%"
+}

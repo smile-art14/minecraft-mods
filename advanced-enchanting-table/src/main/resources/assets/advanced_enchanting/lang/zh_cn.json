@@ -1,0 +1,21 @@
+{
+  "block.advanced_enchanting.advanced_enchanting_table": "高级附魔台",
+  "container.advanced_enchanting.table": "高级附魔台",
+  "button.advanced_enchanting.apply": "附魔",
+  "button.advanced_enchanting.apply_line1": "开始",
+  "button.advanced_enchanting.apply_line2": "附魔",
+  "label.advanced_enchanting.item": "物品 / 青金石",
+  "label.advanced_enchanting.input": "材料",
+  "label.advanced_enchanting.lapis": "青金石",
+  "label.advanced_enchanting.available": "可用附魔",
+  "label.advanced_enchanting.available_page": "可用附魔  %s/%s",
+  "label.advanced_enchanting.level_short": "等级",
+  "label.advanced_enchanting.page": "%s / %s",
+  "label.advanced_enchanting.empty_hint": "请先放入待附魔物品",
+  "label.advanced_enchanting.no_options": "没有可用的附魔",
+  "label.advanced_enchanting.level": "等级 %s",
+  "label.advanced_enchanting.selected": "已选择：%s 项",
+  "label.advanced_enchanting.cost": "消耗：%s 级经验 + %s 青金石",
+  "label.advanced_enchanting.cost_compact": "消耗 %s 级 + %s 青金石",
+  "label.advanced_enchanting.summary": "已选 %s 项  ◆  经验 %s  ◆  青金石 %s"
+}

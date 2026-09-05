@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "shenmi.gridworld.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "mixins": [
+    "NoiseBasedChunkGeneratorMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}

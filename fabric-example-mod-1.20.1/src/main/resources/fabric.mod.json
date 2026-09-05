@@ -1,0 +1,33 @@
+{
+	"schemaVersion": 1,
+	"id": "mcdemo",
+	"version": "${version}",
+	"name": "神秘法杖 (Mystic Wands)",
+	"description": "Adds mystic crystals, elemental wands, Excalibur, magical effects and a starter-kit command.",
+	"authors": [
+		"Shenmi"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/modid/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.example.ExampleMod"
+		],
+		"client": [
+			"com.example.client.ExampleModClient"
+		]
+	},
+	"mixins": [
+		"mcdemo.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	}
+}

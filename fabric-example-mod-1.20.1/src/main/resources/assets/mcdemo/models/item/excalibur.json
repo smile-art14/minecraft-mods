@@ -1,0 +1,48 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "mcdemo:item/excalibur"
+  },
+  "overrides": [
+    {
+	  "predicate": { "mcdemo:charge": 0.1 },
+      "model": "mcdemo:item/excalibur_charge_1"
+    },
+    {
+	  "predicate": { "mcdemo:charge": 0.2 },
+      "model": "mcdemo:item/excalibur_charge_2"
+    },
+    {
+	  "predicate": { "mcdemo:charge": 0.3 },
+      "model": "mcdemo:item/excalibur_charge_3"
+	},
+    {
+	  "predicate": { "mcdemo:charge": 0.4 },
+      "model": "mcdemo:item/excalibur_charge_4"
+	},
+    {
+	  "predicate": { "mcdemo:charge": 0.5 },
+      "model": "mcdemo:item/excalibur_charge_5"
+	},
+    {
+	  "predicate": { "mcdemo:charge": 0.6 },
+      "model": "mcdemo:item/excalibur_charge_6"
+	},
+    {
+	  "predicate": { "mcdemo:charge": 0.7 },
+      "model": "mcdemo:item/excalibur_charge_7"
+	},
+    {
+	  "predicate": { "mcdemo:charge": 0.8 },
+      "model": "mcdemo:item/excalibur_charge_8"
+	},
+    {
+	  "predicate": { "mcdemo:charge": 0.9 },
+      "model": "mcdemo:item/excalibur_charge_9"
+	},
+    {
+	  "predicate": { "mcdemo:charge": 1.0 },
+      "model": "mcdemo:item/excalibur_charge_10"
+    }
+  ]
+}

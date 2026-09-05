@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "shenmi_grid_world",
+  "version": "${version}",
+  "name": "Shenmi Grid World",
+  "description": "Turns newly generated Minecraft terrain into a configurable three-dimensional grid world.",
+  "authors": ["Shenmi"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "shenmi.gridworld.ShenmiGridWorld"
+    ]
+  },
+  "mixins": [
+    "shenmi_grid_world.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "~26.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}

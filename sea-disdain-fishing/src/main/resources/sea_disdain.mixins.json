@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "com.shenmi.seadis.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "AbstractHurtingProjectileMixin",
+    "DragonFireballInvoker",
+    "FishingHookMixin",
+    "MinecartTNTAccessor"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

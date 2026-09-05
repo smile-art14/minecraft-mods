@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "mcdemo:block/mystic_block"
+    }
+  }
+}

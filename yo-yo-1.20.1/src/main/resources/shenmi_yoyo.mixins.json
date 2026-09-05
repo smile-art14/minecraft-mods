@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "com.shenmi.yoyo.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "PlayerStandingDataMixin",
+    "EntityAttachedPushMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

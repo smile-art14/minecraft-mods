@@ -1,0 +1,21 @@
+{
+  "block.advanced_enchanting.advanced_enchanting_table": "Advanced Enchanting Table",
+  "container.advanced_enchanting.table": "Advanced Enchanting Table",
+  "button.advanced_enchanting.apply": "Enchant",
+  "button.advanced_enchanting.apply_line1": "Begin",
+  "button.advanced_enchanting.apply_line2": "Enchant",
+  "label.advanced_enchanting.item": "Item / Lapis",
+  "label.advanced_enchanting.input": "Materials",
+  "label.advanced_enchanting.lapis": "Lapis",
+  "label.advanced_enchanting.available": "Available",
+  "label.advanced_enchanting.available_page": "Available  %s/%s",
+  "label.advanced_enchanting.level_short": "Level",
+  "label.advanced_enchanting.page": "%s / %s",
+  "label.advanced_enchanting.empty_hint": "Insert an item to begin",
+  "label.advanced_enchanting.no_options": "No enchantments available",
+  "label.advanced_enchanting.level": "Level %s",
+  "label.advanced_enchanting.selected": "Selected: %s",
+  "label.advanced_enchanting.cost": "Cost: %s XP levels + %s lapis",
+  "label.advanced_enchanting.cost_compact": "Cost %s levels + %s lapis",
+  "label.advanced_enchanting.summary": "%s selected  ◆  %s levels  ◆  %s lapis"
+}

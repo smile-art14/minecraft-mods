@@ -1,0 +1,55 @@
+# GitHub upload scope: keep only the non-shader Minecraft work selected below.
+# Everything else at D:\shenmi\mc is excluded by default so shader packs,
+# research/reference material, recordings, archives and local helper scripts
+# cannot be staged accidentally.
+/*
+
+# Repository metadata / documentation
+!/.gitignore
+!/README.md
+
+# Non-shader projects
+!/advanced-enchanting-table/
+!/fabric-example-mod-1.20.1/
+!/grid-world-26.2/
+!/magnet-enchantment-1.20.1/
+!/sea-disdain-fishing/
+!/x-ray/
+!/yo-yo-1.20.1/
+!/fake-player-fall-damage-fix/
+
+# Gradle / IDE / runtime output
+**/.gradle/
+**/build/
+**/run/
+**/tmp/
+**/out/
+**/.idea/
+**/.vscode/
+**/.settings/
+**/bin/
+**/classes/
+**/*.iml
+**/*.ipr
+**/*.iws
+**/*.launch
+**/.classpath
+**/.project
+**/hs_err_*.log
+**/replay_*.log
+**/*.hprof
+**/*.jfr
+**/.DS_Store
+
+# fake-player-fall-damage-fix contains third-party/decompiled/test-server
+# material. Publish only the installation notes and our patch source code.
+/fake-player-fall-damage-fix/**
+!/fake-player-fall-damage-fix/README-安装说明.txt
+!/fake-player-fall-damage-fix/tools/
+/fake-player-fall-damage-fix/tools/**
+!/fake-player-fall-damage-fix/tools/PatchCarpetFallDamage.java
+!/fake-player-fall-damage-fix/tools/PatchGcaResident.java
+
+# Explicit safety exclusions
+/setup-openai-key.ps1
+/视频录制/

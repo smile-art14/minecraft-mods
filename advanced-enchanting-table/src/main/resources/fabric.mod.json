@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "advanced_enchanting",
+  "version": "${version}",
+  "name": "Advanced Enchanting Table",
+  "description": "Adds a deterministic enchanting table that lets players choose an enchantment and its level.",
+  "authors": ["Shenmi"],
+  "license": "CC0-1.0",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.shenmi.advancedenchanting.AdvancedEnchantingMod"],
+    "client": ["com.shenmi.advancedenchanting.client.AdvancedEnchantingClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.11",
+    "fabric-api": "*",
+    "minecraft": "~1.20.1",
+    "java": ">=17"
+  },
+  "recommends": {
+    "mcdemo": "*"
+  }
+}
